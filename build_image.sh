@@ -8,7 +8,7 @@ docker pull docker.psidox.com/base
 
 docker kill builder 
 docker rm builder 
-docker run -t -v $(pwd):/fs --name builder docker.psidox.com/base /bin/bash /fs/build.sh
+docker run -t -v $(pwd):/fs --name builder docker.psidox.com/base /bin/bash /fs/build_container.sh
 docker commit builder docker.psidox.com/$DOCKER_NAME:$BUILD_NUMBER
 docker rm builder
 

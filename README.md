@@ -14,7 +14,7 @@ This is a specialized docker built off a base container. For the base container,
     (Open up web browser to http://localhost to view apache webserver running from docker container)
 
 ## Files
-    build.sh - Build script for the container
-    build_docker.sh - Docker image creation
-    build_push.sh - Docker repository publication
+    build_image.sh - Docker image creation
+    build_image_push.sh - Docker repository publication
+    build_container.sh - Build script for the container
     run.sh - Docker image execution example
