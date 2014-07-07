@@ -7,7 +7,7 @@ My own personal docker strategy.  It employes a Dockerfile'less building techniq
 This is a specialized docker built off a base container. For the base container, see [docker-example-base](https://github.com/smysnk/docker-example-base).
 
 ## Usage 
-    $ ./build_docker.sh
+    $ ./build_image.sh
     $ ./run.sh
     $ ssh root@localhost -p 2200  # Connect to running docker container
 
